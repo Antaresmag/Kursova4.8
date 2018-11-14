@@ -13,7 +13,7 @@ namespace WindowsFormsApp1
 {
     public partial class MeetProduct : MetroForm
     {
-        float MeetSum=0;
+        public float MeetSum=0;
         public MeetProduct()
         {
             InitializeComponent();
