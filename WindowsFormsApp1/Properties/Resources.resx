@@ -130,19 +130,31 @@
   <data name="sosiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sosiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="0001695_whole-pork-belly-fresh-portion-15-lbs_560" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\0001695_whole-pork-belly-fresh-portion-15-lbs_560.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="139" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\139.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5767413" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5767413.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="chicken-meat-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\chicken-meat-3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1057fda507206a2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1057fda507206a2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0001695_whole-pork-belly-fresh-portion-15-lbs_560" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0001695_whole-pork-belly-fresh-portion-15-lbs_560.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="завантаження (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\завантаження (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="139" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\139.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="britpateturkey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\britpateturkey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chicken-meat-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken-meat-3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="завантаження (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\завантаження (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

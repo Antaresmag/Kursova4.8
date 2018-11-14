@@ -76,6 +76,10 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -87,6 +91,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -858,6 +866,10 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.pictureBox12);
+            this.groupBox3.Controls.Add(this.pictureBox11);
+            this.groupBox3.Controls.Add(this.pictureBox10);
+            this.groupBox3.Controls.Add(this.pictureBox9);
             this.groupBox3.Controls.Add(this.metroTextBox37);
             this.groupBox3.Controls.Add(this.metroTextBox36);
             this.groupBox3.Controls.Add(this.metroTextBox35);
@@ -899,7 +911,7 @@
             this.metroTextBox37.Enabled = false;
             this.metroTextBox37.ForeColor = System.Drawing.Color.White;
             this.metroTextBox37.Lines = new string[0];
-            this.metroTextBox37.Location = new System.Drawing.Point(201, 167);
+            this.metroTextBox37.Location = new System.Drawing.Point(201, 353);
             this.metroTextBox37.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox37.MaxLength = 32767;
             this.metroTextBox37.Name = "metroTextBox37";
@@ -938,7 +950,7 @@
             this.metroTextBox36.Enabled = false;
             this.metroTextBox36.ForeColor = System.Drawing.Color.White;
             this.metroTextBox36.Lines = new string[0];
-            this.metroTextBox36.Location = new System.Drawing.Point(201, 127);
+            this.metroTextBox36.Location = new System.Drawing.Point(201, 249);
             this.metroTextBox36.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox36.MaxLength = 32767;
             this.metroTextBox36.Name = "metroTextBox36";
@@ -977,7 +989,7 @@
             this.metroTextBox35.Enabled = false;
             this.metroTextBox35.ForeColor = System.Drawing.Color.White;
             this.metroTextBox35.Lines = new string[0];
-            this.metroTextBox35.Location = new System.Drawing.Point(201, 84);
+            this.metroTextBox35.Location = new System.Drawing.Point(201, 144);
             this.metroTextBox35.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox35.MaxLength = 32767;
             this.metroTextBox35.Name = "metroTextBox35";
@@ -1016,7 +1028,7 @@
             this.metroTextBox34.Enabled = false;
             this.metroTextBox34.ForeColor = System.Drawing.Color.White;
             this.metroTextBox34.Lines = new string[0];
-            this.metroTextBox34.Location = new System.Drawing.Point(201, 42);
+            this.metroTextBox34.Location = new System.Drawing.Point(201, 34);
             this.metroTextBox34.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox34.MaxLength = 32767;
             this.metroTextBox34.Name = "metroTextBox34";
@@ -1054,7 +1066,7 @@
             this.metroTextBox12.FontSize = MetroFramework.MetroTextBoxSize.Medium;
             this.metroTextBox12.Lines = new string[] {
         "100₴"};
-            this.metroTextBox12.Location = new System.Drawing.Point(140, 167);
+            this.metroTextBox12.Location = new System.Drawing.Point(140, 353);
             this.metroTextBox12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox12.MaxLength = 32767;
             this.metroTextBox12.Name = "metroTextBox12";
@@ -1090,7 +1102,7 @@
             this.metroTextBox11.FontSize = MetroFramework.MetroTextBoxSize.Medium;
             this.metroTextBox11.Lines = new string[] {
         "89₴"};
-            this.metroTextBox11.Location = new System.Drawing.Point(140, 126);
+            this.metroTextBox11.Location = new System.Drawing.Point(140, 248);
             this.metroTextBox11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox11.MaxLength = 32767;
             this.metroTextBox11.Name = "metroTextBox11";
@@ -1127,7 +1139,7 @@
             this.metroTextBox10.FontSize = MetroFramework.MetroTextBoxSize.Medium;
             this.metroTextBox10.Lines = new string[] {
         "40₴"};
-            this.metroTextBox10.Location = new System.Drawing.Point(140, 84);
+            this.metroTextBox10.Location = new System.Drawing.Point(140, 144);
             this.metroTextBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox10.MaxLength = 32767;
             this.metroTextBox10.Name = "metroTextBox10";
@@ -1164,7 +1176,7 @@
             this.metroTextBox9.FontSize = MetroFramework.MetroTextBoxSize.Medium;
             this.metroTextBox9.Lines = new string[] {
         "60₴"};
-            this.metroTextBox9.Location = new System.Drawing.Point(140, 42);
+            this.metroTextBox9.Location = new System.Drawing.Point(140, 34);
             this.metroTextBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox9.MaxLength = 32767;
             this.metroTextBox9.Name = "metroTextBox9";
@@ -1199,7 +1211,7 @@
             // 
             this.metroCheckBox11.AutoSize = true;
             this.metroCheckBox11.FontSize = MetroFramework.MetroCheckBoxSize.Medium;
-            this.metroCheckBox11.Location = new System.Drawing.Point(17, 126);
+            this.metroCheckBox11.Location = new System.Drawing.Point(17, 248);
             this.metroCheckBox11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroCheckBox11.Name = "metroCheckBox11";
             this.metroCheckBox11.Size = new System.Drawing.Size(57, 20);
@@ -1212,7 +1224,7 @@
             // 
             this.metroCheckBox10.AutoSize = true;
             this.metroCheckBox10.FontSize = MetroFramework.MetroCheckBoxSize.Medium;
-            this.metroCheckBox10.Location = new System.Drawing.Point(17, 84);
+            this.metroCheckBox10.Location = new System.Drawing.Point(17, 144);
             this.metroCheckBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroCheckBox10.Name = "metroCheckBox10";
             this.metroCheckBox10.Size = new System.Drawing.Size(53, 20);
@@ -1225,7 +1237,7 @@
             // 
             this.metroCheckBox9.AutoSize = true;
             this.metroCheckBox9.FontSize = MetroFramework.MetroCheckBoxSize.Medium;
-            this.metroCheckBox9.Location = new System.Drawing.Point(17, 42);
+            this.metroCheckBox9.Location = new System.Drawing.Point(17, 34);
             this.metroCheckBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroCheckBox9.Name = "metroCheckBox9";
             this.metroCheckBox9.Size = new System.Drawing.Size(97, 20);
@@ -1361,6 +1373,7 @@
             this.pictureBox7.Location = new System.Drawing.Point(20, 273);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(104, 74);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 22;
             this.pictureBox7.TabStop = false;
             // 
@@ -1370,6 +1383,7 @@
             this.pictureBox6.Location = new System.Drawing.Point(20, 167);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(104, 74);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 21;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
@@ -1380,9 +1394,50 @@
             this.pictureBox5.Location = new System.Drawing.Point(19, 62);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(104, 74);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 20;
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Image = global::WindowsFormsApp1.Properties.Resources.завантаження__2_;
+            this.pictureBox12.Location = new System.Drawing.Point(17, 380);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(106, 74);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 27;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = global::WindowsFormsApp1.Properties.Resources._5767413;
+            this.pictureBox11.Location = new System.Drawing.Point(17, 273);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(106, 74);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox11.TabIndex = 26;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = global::WindowsFormsApp1.Properties.Resources.britpateturkey;
+            this.pictureBox10.Location = new System.Drawing.Point(17, 169);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(106, 74);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 25;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::WindowsFormsApp1.Properties.Resources._1057fda507206a2;
+            this.pictureBox9.Location = new System.Drawing.Point(17, 62);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(106, 74);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 24;
+            this.pictureBox9.TabStop = false;
             // 
             // pictureBox4
             // 
@@ -1390,6 +1445,7 @@
             this.pictureBox4.Location = new System.Drawing.Point(15, 384);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(104, 70);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 19;
             this.pictureBox4.TabStop = false;
             // 
@@ -1399,6 +1455,7 @@
             this.pictureBox3.Location = new System.Drawing.Point(15, 277);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(104, 77);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 18;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
@@ -1408,7 +1465,8 @@
             this.pictureBox2.Image = global::WindowsFormsApp1.Properties.Resources.images;
             this.pictureBox2.Location = new System.Drawing.Point(15, 169);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(104, 64);
+            this.pictureBox2.Size = new System.Drawing.Size(104, 74);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 17;
             this.pictureBox2.TabStop = false;
             // 
@@ -1418,6 +1476,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(15, 62);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(104, 74);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 16;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -1451,6 +1510,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -1514,5 +1577,9 @@
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox pictureBox9;
     }
 }

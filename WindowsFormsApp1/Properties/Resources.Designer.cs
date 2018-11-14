@@ -73,6 +73,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1057fda507206a2 {
+            get {
+                object obj = ResourceManager.GetObject("1057fda507206a2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _139 {
             get {
                 object obj = ResourceManager.GetObject("139", resourceCulture);
@@ -83,9 +93,29 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _5767413 {
+            get {
+                object obj = ResourceManager.GetObject("5767413", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap aec7f4b28c_500 {
             get {
                 object obj = ResourceManager.GetObject("aec7f4b28c_500", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap britpateturkey {
+            get {
+                object obj = ResourceManager.GetObject("britpateturkey", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -146,6 +176,16 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap завантаження__1_1 {
             get {
                 object obj = ResourceManager.GetObject("завантаження (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap завантаження__2_ {
+            get {
+                object obj = ResourceManager.GetObject("завантаження (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
