@@ -162,6 +162,7 @@
             this.metroCheckBox1.TabIndex = 0;
             this.metroCheckBox1.Text = "Chader";
             this.metroCheckBox1.UseSelectable = true;
+            this.metroCheckBox1.CheckedChanged += new System.EventHandler(this.metroCheckBox1_CheckedChanged);
             // 
             // metroCheckBox2
             // 
@@ -174,6 +175,7 @@
             this.metroCheckBox2.TabIndex = 1;
             this.metroCheckBox2.Text = "Bri";
             this.metroCheckBox2.UseSelectable = true;
+            this.metroCheckBox2.CheckedChanged += new System.EventHandler(this.metroCheckBox2_CheckedChanged);
             // 
             // metroCheckBox3
             // 
@@ -186,6 +188,7 @@
             this.metroCheckBox3.TabIndex = 2;
             this.metroCheckBox3.Text = "Parmesan";
             this.metroCheckBox3.UseSelectable = true;
+            this.metroCheckBox3.CheckedChanged += new System.EventHandler(this.metroCheckBox3_CheckedChanged);
             // 
             // metroCheckBox4
             // 
@@ -198,6 +201,7 @@
             this.metroCheckBox4.TabIndex = 3;
             this.metroCheckBox4.Text = "Mozarella";
             this.metroCheckBox4.UseSelectable = true;
+            this.metroCheckBox4.CheckedChanged += new System.EventHandler(this.metroCheckBox4_CheckedChanged);
             // 
             // metroTextBox1
             // 
@@ -533,6 +537,7 @@
             this.metroCheckBox9.TabIndex = 0;
             this.metroCheckBox9.Text = "Porridge sm.";
             this.metroCheckBox9.UseSelectable = true;
+            this.metroCheckBox9.CheckedChanged += new System.EventHandler(this.metroCheckBox9_CheckedChanged);
             // 
             // metroCheckBox10
             // 
@@ -545,6 +550,7 @@
             this.metroCheckBox10.TabIndex = 1;
             this.metroCheckBox10.Text = "Porridge md.";
             this.metroCheckBox10.UseSelectable = true;
+            this.metroCheckBox10.CheckedChanged += new System.EventHandler(this.metroCheckBox10_CheckedChanged);
             // 
             // metroCheckBox11
             // 
@@ -557,6 +563,7 @@
             this.metroCheckBox11.TabIndex = 2;
             this.metroCheckBox11.Text = "Porridge big";
             this.metroCheckBox11.UseSelectable = true;
+            this.metroCheckBox11.CheckedChanged += new System.EventHandler(this.metroCheckBox11_CheckedChanged);
             // 
             // metroCheckBox12
             // 
@@ -569,6 +576,7 @@
             this.metroCheckBox12.TabIndex = 3;
             this.metroCheckBox12.Text = "Porridge pr.";
             this.metroCheckBox12.UseSelectable = true;
+            this.metroCheckBox12.CheckedChanged += new System.EventHandler(this.metroCheckBox12_CheckedChanged);
             // 
             // metroTextBox9
             // 
@@ -904,6 +912,7 @@
             this.metroCheckBox5.TabIndex = 0;
             this.metroCheckBox5.Text = "Milk";
             this.metroCheckBox5.UseSelectable = true;
+            this.metroCheckBox5.CheckedChanged += new System.EventHandler(this.metroCheckBox5_CheckedChanged);
             // 
             // metroCheckBox6
             // 
@@ -916,6 +925,7 @@
             this.metroCheckBox6.TabIndex = 1;
             this.metroCheckBox6.Text = "Yogurt";
             this.metroCheckBox6.UseSelectable = true;
+            this.metroCheckBox6.CheckedChanged += new System.EventHandler(this.metroCheckBox6_CheckedChanged);
             // 
             // metroCheckBox7
             // 
@@ -928,6 +938,7 @@
             this.metroCheckBox7.TabIndex = 2;
             this.metroCheckBox7.Text = "Ryajenka";
             this.metroCheckBox7.UseSelectable = true;
+            this.metroCheckBox7.CheckedChanged += new System.EventHandler(this.metroCheckBox7_CheckedChanged);
             // 
             // metroCheckBox8
             // 
@@ -940,6 +951,7 @@
             this.metroCheckBox8.TabIndex = 3;
             this.metroCheckBox8.Text = "Kefir";
             this.metroCheckBox8.UseSelectable = true;
+            this.metroCheckBox8.CheckedChanged += new System.EventHandler(this.metroCheckBox8_CheckedChanged);
             // 
             // metroTextBox5
             // 
