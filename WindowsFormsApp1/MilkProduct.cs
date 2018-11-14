@@ -76,6 +76,186 @@ namespace WindowsFormsApp1
                 MilkSum += (count * parmesan);
             }
         }
+
+        private void metroTextBox28_Click(object sender, EventArgs e)
+        {
+            {
+                try
+                {
+                    int.Parse(metroTextBox28.Text);
+
+                }
+                catch
+                {
+                    metroTextBox28.Text = "0";
+                    return;
+                }
+                int count = Convert.ToInt32(metroTextBox28.Text);
+                float mozarella = 130;
+                metroTextBox14.Text = (float.Parse(metroTextBox14.Text) + (mozarella * count)).ToString();
+                MilkSum += (count * mozarella);
+            }
+        }
+
+        private void metroTextBox30_Click(object sender, EventArgs e)
+        {
+            {
+                try
+                {
+                    int.Parse(metroTextBox30.Text);
+
+                }
+                catch
+                {
+                    metroTextBox30.Text = "0";
+                    return;
+                }
+                int count = Convert.ToInt32(metroTextBox30.Text);
+                float milk = 30;
+                metroTextBox14.Text = (float.Parse(metroTextBox14.Text) + (milk * count)).ToString();
+                MilkSum += (count * milk);
+            }
+        }
+
+        private void metroTextBox31_Click(object sender, EventArgs e)
+        {
+            {
+                try
+                {
+                    int.Parse(metroTextBox30.Text);
+
+                }
+                catch
+                {
+                    metroTextBox30.Text = "0";
+                    return;
+                }
+                int count = Convert.ToInt32(metroTextBox30.Text);
+                float yogurt = 29;
+                metroTextBox14.Text = (float.Parse(metroTextBox14.Text) + (yogurt * count)).ToString();
+                MilkSum += (count * yogurt);
+            }
+        }
+
+        private void metroTextBox32_Click(object sender, EventArgs e)
+        {
+            {
+                try
+                {
+                    int.Parse(metroTextBox32.Text);
+
+                }
+                catch
+                {
+                    metroTextBox32.Text = "0";
+                    return;
+                }
+                int count = Convert.ToInt32(metroTextBox32.Text);
+                float ryajenka = 27;
+                metroTextBox14.Text = (float.Parse(metroTextBox14.Text) + (ryajenka * count)).ToString();
+                MilkSum += (count * ryajenka);
+            }
+        }
+
+        private void metroTextBox33_Click(object sender, EventArgs e)
+        {
+            {
+                try
+                {
+                    int.Parse(metroTextBox33.Text);
+
+                }
+                catch
+                {
+                    metroTextBox33.Text = "0";
+                    return;
+                }
+                int count = Convert.ToInt32(metroTextBox33.Text);
+                float kefir = 22;
+                metroTextBox14.Text = (float.Parse(metroTextBox14.Text) + (kefir * count)).ToString();
+                MilkSum += (count * kefir);
+            }
+        }
+
+        private void metroTextBox34_Click(object sender, EventArgs e)
+        {
+            {
+                try
+                {
+                    int.Parse(metroTextBox34.Text);
+
+                }
+                catch
+                {
+                    metroTextBox34.Text = "0";
+                    return;
+                }
+                int count = Convert.ToInt32(metroTextBox34.Text);
+                float porridgeSm = 24;
+                metroTextBox14.Text = (float.Parse(metroTextBox14.Text) + (porridgeSm * count)).ToString();
+                MilkSum += (count * porridgeSm);
+            }
+        }
+
+        private void metroTextBox35_Click(object sender, EventArgs e)
+        {
+            {
+                try
+                {
+                    int.Parse(metroTextBox30.Text);
+
+                }
+                catch
+                {
+                    metroTextBox30.Text = "0";
+                    return;
+                }
+                int count = Convert.ToInt32(metroTextBox30.Text);
+                float porridgeDm = 47;
+                metroTextBox14.Text = (float.Parse(metroTextBox14.Text) + (porridgeDm * count)).ToString();
+                MilkSum += (count * porridgeDm);
+            }
+        }
+
+        private void metroTextBox36_Click(object sender, EventArgs e)
+        {
+            {
+                try
+                {
+                    int.Parse(metroTextBox36.Text);
+
+                }
+                catch
+                {
+                    metroTextBox36.Text = "0";
+                    return;
+                }
+                int count = Convert.ToInt32(metroTextBox36.Text);
+                float porridgeBig = 69;
+                metroTextBox14.Text = (float.Parse(metroTextBox14.Text) + (porridgeBig * count)).ToString();
+                MilkSum += (count * porridgeBig);
+            }
+        }
+
+        private void metroTextBox37_Click(object sender, EventArgs e)
+        {
+            {
+                try
+                {
+                    int.Parse(metroTextBox37.Text);
+
+                }
+                catch
+                {
+                    metroTextBox37.Text = "0";
+                    return;
+                }
+                int count = Convert.ToInt32(metroTextBox37.Text);
+                float porridgePr = 99;
+                metroTextBox14.Text = (float.Parse(metroTextBox14.Text) + (porridgePr * count)).ToString();
+                MilkSum += (count * porridgePr);
+            }
+        }
     }
     }
 }
