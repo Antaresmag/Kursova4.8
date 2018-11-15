@@ -32,6 +32,10 @@
             this.metroRadioButton2 = new MetroFramework.Controls.MetroRadioButton();
             this.metroRadioButton1 = new MetroFramework.Controls.MetroRadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.metroTextBox33 = new MetroFramework.Controls.MetroTextBox();
             this.metroTextBox32 = new MetroFramework.Controls.MetroTextBox();
             this.metroTextBox31 = new MetroFramework.Controls.MetroTextBox();
@@ -45,6 +49,10 @@
             this.metroCheckBox6 = new MetroFramework.Controls.MetroCheckBox();
             this.metroCheckBox5 = new MetroFramework.Controls.MetroCheckBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.metroTextBox37 = new MetroFramework.Controls.MetroTextBox();
             this.metroTextBox36 = new MetroFramework.Controls.MetroTextBox();
             this.metroTextBox35 = new MetroFramework.Controls.MetroTextBox();
@@ -58,6 +66,10 @@
             this.metroCheckBox10 = new MetroFramework.Controls.MetroCheckBox();
             this.metroCheckBox9 = new MetroFramework.Controls.MetroCheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.metroTextBox28 = new MetroFramework.Controls.MetroTextBox();
             this.metroTextBox27 = new MetroFramework.Controls.MetroTextBox();
             this.metroTextBox26 = new MetroFramework.Controls.MetroTextBox();
@@ -72,30 +84,19 @@
             this.metroCheckBox1 = new MetroFramework.Controls.MetroCheckBox();
             this.metroTextBox13 = new MetroFramework.Controls.MetroTextBox();
             this.metroTextBox14 = new MetroFramework.Controls.MetroTextBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
+            this.metroTextBox15 = new MetroFramework.Controls.MetroTextBox();
             this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -166,6 +167,46 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Fruite";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::WindowsFormsApp1.Properties.Resources.petaya;
+            this.pictureBox8.Location = new System.Drawing.Point(16, 351);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(108, 67);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 23;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::WindowsFormsApp1.Properties.Resources.persimmon;
+            this.pictureBox7.Location = new System.Drawing.Point(16, 251);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(108, 67);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 22;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::WindowsFormsApp1.Properties.Resources.papaya;
+            this.pictureBox6.Location = new System.Drawing.Point(16, 154);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(108, 67);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 21;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::WindowsFormsApp1.Properties.Resources.mango;
+            this.pictureBox5.Location = new System.Drawing.Point(16, 55);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(108, 67);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 20;
+            this.pictureBox5.TabStop = false;
             // 
             // metroTextBox33
             // 
@@ -536,6 +577,48 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Vagan";
             // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Image = global::WindowsFormsApp1.Properties.Resources.sp_water;
+            this.pictureBox12.Location = new System.Drawing.Point(17, 351);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(108, 67);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 26;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = global::WindowsFormsApp1.Properties.Resources.vegan_mailk;
+            this.pictureBox11.Location = new System.Drawing.Point(17, 251);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(108, 67);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox11.TabIndex = 25;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = global::WindowsFormsApp1.Properties.Resources.vegan_cheese;
+            this.pictureBox10.Location = new System.Drawing.Point(17, 154);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(108, 67);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 25;
+            this.pictureBox10.TabStop = false;
+            this.pictureBox10.Click += new System.EventHandler(this.pictureBox10_Click);
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::WindowsFormsApp1.Properties.Resources.veg_meet;
+            this.pictureBox9.Location = new System.Drawing.Point(17, 55);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(108, 67);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 24;
+            this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
+            // 
             // metroTextBox37
             // 
             // 
@@ -904,6 +987,46 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Vegetables";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::WindowsFormsApp1.Properties.Resources.potatoes;
+            this.pictureBox4.Location = new System.Drawing.Point(15, 348);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(108, 67);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 19;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::WindowsFormsApp1.Properties.Resources.eggplants;
+            this.pictureBox3.Location = new System.Drawing.Point(15, 251);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(108, 67);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 18;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::WindowsFormsApp1.Properties.Resources.tomatoes;
+            this.pictureBox2.Location = new System.Drawing.Point(15, 154);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(108, 67);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 17;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.cucumb;
+            this.pictureBox1.Location = new System.Drawing.Point(15, 55);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(108, 67);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
             // 
             // metroTextBox28
             // 
@@ -1322,128 +1445,6 @@
             this.metroTextBox14.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             this.metroTextBox14.Click += new System.EventHandler(this.metroTextBox14_Click);
             // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::WindowsFormsApp1.Properties.Resources.petaya;
-            this.pictureBox8.Location = new System.Drawing.Point(16, 351);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(108, 67);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 23;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::WindowsFormsApp1.Properties.Resources.persimmon;
-            this.pictureBox7.Location = new System.Drawing.Point(16, 251);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(108, 67);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 22;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::WindowsFormsApp1.Properties.Resources.papaya;
-            this.pictureBox6.Location = new System.Drawing.Point(16, 154);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(108, 67);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 21;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::WindowsFormsApp1.Properties.Resources.mango;
-            this.pictureBox5.Location = new System.Drawing.Point(16, 55);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(108, 67);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 20;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = global::WindowsFormsApp1.Properties.Resources.sp_water;
-            this.pictureBox12.Location = new System.Drawing.Point(17, 351);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(108, 67);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 26;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Image = global::WindowsFormsApp1.Properties.Resources.vegan_mailk;
-            this.pictureBox11.Location = new System.Drawing.Point(17, 251);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(108, 67);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox11.TabIndex = 25;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = global::WindowsFormsApp1.Properties.Resources.vegan_cheese;
-            this.pictureBox10.Location = new System.Drawing.Point(17, 154);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(108, 67);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 25;
-            this.pictureBox10.TabStop = false;
-            this.pictureBox10.Click += new System.EventHandler(this.pictureBox10_Click);
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = global::WindowsFormsApp1.Properties.Resources.veg_meet;
-            this.pictureBox9.Location = new System.Drawing.Point(17, 55);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(108, 67);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 24;
-            this.pictureBox9.TabStop = false;
-            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::WindowsFormsApp1.Properties.Resources.potatoes;
-            this.pictureBox4.Location = new System.Drawing.Point(15, 348);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(108, 67);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 19;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::WindowsFormsApp1.Properties.Resources.eggplants;
-            this.pictureBox3.Location = new System.Drawing.Point(15, 251);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(108, 67);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 18;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::WindowsFormsApp1.Properties.Resources.tomatoes;
-            this.pictureBox2.Location = new System.Drawing.Point(15, 154);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(108, 67);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 17;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.cucumb;
-            this.pictureBox1.Location = new System.Drawing.Point(15, 55);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(108, 67);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
-            // 
             // metroButton1
             // 
             this.metroButton1.FontSize = MetroFramework.MetroButtonSize.Tall;
@@ -1455,11 +1456,52 @@
             this.metroButton1.UseSelectable = true;
             this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
             // 
+            // metroTextBox15
+            // 
+            this.metroTextBox15.BackColor = System.Drawing.Color.Yellow;
+            // 
+            // 
+            // 
+            this.metroTextBox15.CustomButton.Image = null;
+            this.metroTextBox15.CustomButton.Location = new System.Drawing.Point(-10, 2);
+            this.metroTextBox15.CustomButton.Name = "";
+            this.metroTextBox15.CustomButton.Size = new System.Drawing.Size(33, 33);
+            this.metroTextBox15.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox15.CustomButton.TabIndex = 1;
+            this.metroTextBox15.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox15.CustomButton.UseSelectable = true;
+            this.metroTextBox15.CustomButton.Visible = false;
+            this.metroTextBox15.FontSize = MetroFramework.MetroTextBoxSize.Tall;
+            this.metroTextBox15.Lines = new string[] {
+        "?"};
+            this.metroTextBox15.Location = new System.Drawing.Point(1077, 45);
+            this.metroTextBox15.MaxLength = 32767;
+            this.metroTextBox15.Multiline = true;
+            this.metroTextBox15.Name = "metroTextBox15";
+            this.metroTextBox15.PasswordChar = '\0';
+            this.metroTextBox15.ReadOnly = true;
+            this.metroTextBox15.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox15.SelectedText = "";
+            this.metroTextBox15.SelectionLength = 0;
+            this.metroTextBox15.SelectionStart = 0;
+            this.metroTextBox15.ShortcutsEnabled = true;
+            this.metroTextBox15.Size = new System.Drawing.Size(26, 38);
+            this.metroTextBox15.TabIndex = 20;
+            this.metroTextBox15.Text = "?";
+            this.metroTextBox15.UseCustomBackColor = true;
+            this.metroTextBox15.UseCustomForeColor = true;
+            this.metroTextBox15.UseSelectable = true;
+            this.metroTextBox15.UseStyleColors = true;
+            this.metroTextBox15.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox15.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.metroTextBox15.Click += new System.EventHandler(this.metroTextBox15_Click);
+            // 
             // VegFruitProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1102, 565);
+            this.Controls.Add(this.metroTextBox15);
             this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.metroTextBox14);
             this.Controls.Add(this.metroTextBox13);
@@ -1475,18 +1517,18 @@
             this.Text = "VegFruitProduct";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -1555,5 +1597,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private MetroFramework.Controls.MetroButton metroButton1;
+        private MetroFramework.Controls.MetroTextBox metroTextBox15;
     }
 }

@@ -44,6 +44,7 @@
             this.metroTextBox3 = new MetroFramework.Controls.MetroTextBox();
             this.metroButton3 = new MetroFramework.Controls.MetroButton();
             this.metroButton4 = new MetroFramework.Controls.MetroButton();
+            this.metroTextBox5 = new MetroFramework.Controls.MetroTextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -357,11 +358,52 @@
             this.metroButton4.UseSelectable = true;
             this.metroButton4.Click += new System.EventHandler(this.metroButton4_Click);
             // 
+            // metroTextBox5
+            // 
+            this.metroTextBox5.BackColor = System.Drawing.Color.Yellow;
+            // 
+            // 
+            // 
+            this.metroTextBox5.CustomButton.Image = null;
+            this.metroTextBox5.CustomButton.Location = new System.Drawing.Point(-10, 2);
+            this.metroTextBox5.CustomButton.Name = "";
+            this.metroTextBox5.CustomButton.Size = new System.Drawing.Size(33, 33);
+            this.metroTextBox5.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox5.CustomButton.TabIndex = 1;
+            this.metroTextBox5.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox5.CustomButton.UseSelectable = true;
+            this.metroTextBox5.CustomButton.Visible = false;
+            this.metroTextBox5.FontSize = MetroFramework.MetroTextBoxSize.Tall;
+            this.metroTextBox5.Lines = new string[] {
+        "?"};
+            this.metroTextBox5.Location = new System.Drawing.Point(751, 5);
+            this.metroTextBox5.MaxLength = 32767;
+            this.metroTextBox5.Multiline = true;
+            this.metroTextBox5.Name = "metroTextBox5";
+            this.metroTextBox5.PasswordChar = '\0';
+            this.metroTextBox5.ReadOnly = true;
+            this.metroTextBox5.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox5.SelectedText = "";
+            this.metroTextBox5.SelectionLength = 0;
+            this.metroTextBox5.SelectionStart = 0;
+            this.metroTextBox5.ShortcutsEnabled = true;
+            this.metroTextBox5.Size = new System.Drawing.Size(26, 38);
+            this.metroTextBox5.TabIndex = 13;
+            this.metroTextBox5.Text = "?";
+            this.metroTextBox5.UseCustomBackColor = true;
+            this.metroTextBox5.UseCustomForeColor = true;
+            this.metroTextBox5.UseSelectable = true;
+            this.metroTextBox5.UseStyleColors = true;
+            this.metroTextBox5.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox5.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.metroTextBox5.Click += new System.EventHandler(this.metroTextBox5_Click);
+            // 
             // Front
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 670);
+            this.Controls.Add(this.metroTextBox5);
             this.Controls.Add(this.metroButton4);
             this.Controls.Add(this.metroButton3);
             this.Controls.Add(this.metroTextBox3);
@@ -405,5 +447,6 @@
         private MetroFramework.Controls.MetroTextBox metroTextBox3;
         private MetroFramework.Controls.MetroButton metroButton3;
         private MetroFramework.Controls.MetroButton metroButton4;
+        private MetroFramework.Controls.MetroTextBox metroTextBox5;
     }
 }

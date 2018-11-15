@@ -271,5 +271,15 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void metroTextBox10_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("!!! Увага НЕ натискайте, мишкою двійчі по вікні (кількості товарів) доки ви не ували потрібну кількість товару, коли вирішите з кількістю тоді, натисніть другий раз! Якщо раптом ви випадково ви натиснули двічі і вибрали не ту кількість через знак - відніміть потрібну кількість");
+        }
+
+        private void metroTextBox8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

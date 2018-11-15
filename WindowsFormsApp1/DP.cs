@@ -38,11 +38,13 @@ namespace WindowsFormsApp1
 
         private void metroButton2_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Зверніть увагу на знак ? і натисність");
             MeetProduct some = new MeetProduct();
             some.Enabled = true;
             some.ShowDialog();
             //Sum += some.MeetSum;
             metroTextBox14.Text = (float.Parse(metroTextBox14.Text) + (ProductSum += some.MeetSum)).ToString();
+           
 
         }
 
@@ -53,17 +55,21 @@ namespace WindowsFormsApp1
 
         private void metroButton3_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Зверніть увагу на знак ? і натисність");
             MilkProduct some = new MilkProduct();
             some.ShowDialog();
            //Sum += some.MeetSum;
             metroTextBox14.Text = (float.Parse(metroTextBox14.Text) + (ProductSum += some.MilkSum)).ToString() ;
+           
         }
 
         private void metroButton4_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Зверніть увагу на знак ? і натисність");
             VegFruitProduct some = new VegFruitProduct();
             some.ShowDialog();
             metroTextBox14.Text = (float.Parse(metroTextBox14.Text) + (ProductSum += some.VegFrutSum)).ToString();
+            
         }
 
         private void metroTextBox14_Click(object sender, EventArgs e)

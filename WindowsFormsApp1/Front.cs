@@ -61,10 +61,12 @@ namespace WindowsFormsApp1
 
         private void metroButton2_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Зверніть увагу на знак ? і натисність");
             DCT some = new DCT();
             some.ShowDialog();
             metroTextBox14.Text = (float.Parse(metroTextBox14.Text) + (GlobalSum += some.TehnologySum)).ToString();
            
+
         }
 
         private void metroTextBox3_Click(object sender, EventArgs e)
@@ -87,6 +89,11 @@ namespace WindowsFormsApp1
         private void metroButton4_Click(object sender, EventArgs e)
         {
             MessageBox.Show("-_- І на* ти нам голову морочіш, ШТРАФ "+metroTextBox14.Text);
+        }
+
+        private void metroTextBox5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("UA: Ви можете гуляти по нашому, магазину. Скидувати товари у кошик. А коли закінчіте, натисніть копку BAY / Do not Bay");
         }
 
         //private void metroButton3_Click(object sender, EventArgs e)
