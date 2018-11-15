@@ -86,6 +86,11 @@
     <Compile Include="MilkProduct.Designer.cs">
       <DependentUpon>MilkProduct.cs</DependentUpon>
     </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="RegistrationForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,14 +132,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -156,46 +156,49 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\chicken-meat-3.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\sosiki.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\aec7f4b28c_500.png" />
+    <None Include="Resources\Becon1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\images.jpg" />
+    <None Include="Resources\Beef1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\завантаження.jpg" />
+    <None Include="Resources\Cash1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\завантаження %281%29.jpg" />
+    <None Include="Resources\Chicken1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\завантаження %281%291.jpg" />
+    <None Include="Resources\Damplans1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\0001695_whole-pork-belly-fresh-portion-15-lbs_560.jpeg" />
+    <None Include="Resources\Ham1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\139.jpg" />
+    <None Include="Resources\Mutton1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\1057fda507206a2.jpg" />
+    <None Include="Resources\Pate1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\britpateturkey.png" />
+    <None Include="Resources\Pork1.jpeg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\5767413.png" />
+    <None Include="Resources\Pork_fat1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\завантаження %282%29.jpg" />
+    <None Include="Resources\Sausage1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\images %281%29.jpg" />
+    <None Include="Resources\Schnitzel1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sosiki1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stew1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
