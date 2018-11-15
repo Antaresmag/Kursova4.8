@@ -13,7 +13,7 @@ namespace WindowsFormsApp1
 {
     public partial class Front : MetroForm
     {
-        float Sum = 0;
+        public float Sum = 0;
         public Front()
         {
             InitializeComponent();

@@ -127,7 +127,7 @@ namespace WindowsFormsApp1
                     return;
                 }
                 int count = Convert.ToInt32(metroTextBox36.Text);
-                float stew = 200;
+                float stew = 89;
                 metroTextBox14.Text = (float.Parse(metroTextBox14.Text) + (stew * count)).ToString();
                 MeetSum += (count * stew);
             }
@@ -330,7 +330,7 @@ namespace WindowsFormsApp1
                     return;
                 }
                 int count = Convert.ToInt32(metroTextBox33.Text);
-                float mutton = 40;
+                float mutton = 200;
                 metroTextBox14.Text = (float.Parse(metroTextBox14.Text) + (mutton * count)).ToString();
                 MeetSum += (count * mutton);
             }
@@ -407,6 +407,16 @@ namespace WindowsFormsApp1
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void metroTextBox13_Click(object sender, EventArgs e)
         {
 
         }

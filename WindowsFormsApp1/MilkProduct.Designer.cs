@@ -174,6 +174,7 @@
             this.metroTextBox14.UseSelectable = true;
             this.metroTextBox14.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.metroTextBox14.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.metroTextBox14.Click += new System.EventHandler(this.metroTextBox14_Click);
             // 
             // metroCheckBox1
             // 
@@ -192,7 +193,7 @@
             // 
             this.metroCheckBox2.AutoSize = true;
             this.metroCheckBox2.FontSize = MetroFramework.MetroCheckBoxSize.Medium;
-            this.metroCheckBox2.Location = new System.Drawing.Point(15, 117);
+            this.metroCheckBox2.Location = new System.Drawing.Point(15, 126);
             this.metroCheckBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroCheckBox2.Name = "metroCheckBox2";
             this.metroCheckBox2.Size = new System.Drawing.Size(43, 20);
@@ -205,7 +206,7 @@
             // 
             this.metroCheckBox3.AutoSize = true;
             this.metroCheckBox3.FontSize = MetroFramework.MetroCheckBoxSize.Medium;
-            this.metroCheckBox3.Location = new System.Drawing.Point(15, 214);
+            this.metroCheckBox3.Location = new System.Drawing.Point(15, 228);
             this.metroCheckBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroCheckBox3.Name = "metroCheckBox3";
             this.metroCheckBox3.Size = new System.Drawing.Size(88, 20);
@@ -218,7 +219,7 @@
             // 
             this.metroCheckBox4.AutoSize = true;
             this.metroCheckBox4.FontSize = MetroFramework.MetroCheckBoxSize.Medium;
-            this.metroCheckBox4.Location = new System.Drawing.Point(15, 312);
+            this.metroCheckBox4.Location = new System.Drawing.Point(15, 333);
             this.metroCheckBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroCheckBox4.Name = "metroCheckBox4";
             this.metroCheckBox4.Size = new System.Drawing.Size(91, 20);
@@ -281,7 +282,7 @@
             this.metroTextBox2.FontSize = MetroFramework.MetroTextBoxSize.Medium;
             this.metroTextBox2.Lines = new string[] {
         "500₴"};
-            this.metroTextBox2.Location = new System.Drawing.Point(128, 117);
+            this.metroTextBox2.Location = new System.Drawing.Point(128, 126);
             this.metroTextBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox2.MaxLength = 32767;
             this.metroTextBox2.Name = "metroTextBox2";
@@ -317,7 +318,7 @@
             this.metroTextBox3.FontSize = MetroFramework.MetroTextBoxSize.Medium;
             this.metroTextBox3.Lines = new string[] {
         "320₴"};
-            this.metroTextBox3.Location = new System.Drawing.Point(128, 214);
+            this.metroTextBox3.Location = new System.Drawing.Point(128, 228);
             this.metroTextBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox3.MaxLength = 32767;
             this.metroTextBox3.Name = "metroTextBox3";
@@ -353,7 +354,7 @@
             this.metroTextBox4.FontSize = MetroFramework.MetroTextBoxSize.Medium;
             this.metroTextBox4.Lines = new string[] {
         "130₴"};
-            this.metroTextBox4.Location = new System.Drawing.Point(128, 308);
+            this.metroTextBox4.Location = new System.Drawing.Point(128, 329);
             this.metroTextBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox4.MaxLength = 32767;
             this.metroTextBox4.Name = "metroTextBox4";
@@ -389,14 +390,16 @@
             this.groupBox1.Controls.Add(this.metroCheckBox3);
             this.groupBox1.Controls.Add(this.metroCheckBox2);
             this.groupBox1.Controls.Add(this.metroCheckBox1);
+            this.groupBox1.Enabled = false;
             this.groupBox1.Location = new System.Drawing.Point(30, 111);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(248, 416);
+            this.groupBox1.Size = new System.Drawing.Size(248, 448);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cheese";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // metroTextBox28
             // 
@@ -417,7 +420,7 @@
             this.metroTextBox28.Enabled = false;
             this.metroTextBox28.ForeColor = System.Drawing.Color.White;
             this.metroTextBox28.Lines = new string[0];
-            this.metroTextBox28.Location = new System.Drawing.Point(209, 309);
+            this.metroTextBox28.Location = new System.Drawing.Point(209, 330);
             this.metroTextBox28.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox28.MaxLength = 32767;
             this.metroTextBox28.Name = "metroTextBox28";
@@ -456,7 +459,7 @@
             this.metroTextBox27.Enabled = false;
             this.metroTextBox27.ForeColor = System.Drawing.Color.White;
             this.metroTextBox27.Lines = new string[0];
-            this.metroTextBox27.Location = new System.Drawing.Point(209, 215);
+            this.metroTextBox27.Location = new System.Drawing.Point(209, 229);
             this.metroTextBox27.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox27.MaxLength = 32767;
             this.metroTextBox27.Name = "metroTextBox27";
@@ -495,7 +498,7 @@
             this.metroTextBox26.Enabled = false;
             this.metroTextBox26.ForeColor = System.Drawing.Color.White;
             this.metroTextBox26.Lines = new string[0];
-            this.metroTextBox26.Location = new System.Drawing.Point(209, 117);
+            this.metroTextBox26.Location = new System.Drawing.Point(209, 126);
             this.metroTextBox26.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox26.MaxLength = 32767;
             this.metroTextBox26.Name = "metroTextBox26";
@@ -571,7 +574,7 @@
             // 
             this.metroCheckBox10.AutoSize = true;
             this.metroCheckBox10.FontSize = MetroFramework.MetroCheckBoxSize.Medium;
-            this.metroCheckBox10.Location = new System.Drawing.Point(17, 117);
+            this.metroCheckBox10.Location = new System.Drawing.Point(17, 123);
             this.metroCheckBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroCheckBox10.Name = "metroCheckBox10";
             this.metroCheckBox10.Size = new System.Drawing.Size(110, 20);
@@ -584,7 +587,7 @@
             // 
             this.metroCheckBox11.AutoSize = true;
             this.metroCheckBox11.FontSize = MetroFramework.MetroCheckBoxSize.Medium;
-            this.metroCheckBox11.Location = new System.Drawing.Point(17, 213);
+            this.metroCheckBox11.Location = new System.Drawing.Point(17, 227);
             this.metroCheckBox11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroCheckBox11.Name = "metroCheckBox11";
             this.metroCheckBox11.Size = new System.Drawing.Size(107, 20);
@@ -597,7 +600,7 @@
             // 
             this.metroCheckBox12.AutoSize = true;
             this.metroCheckBox12.FontSize = MetroFramework.MetroCheckBoxSize.Medium;
-            this.metroCheckBox12.Location = new System.Drawing.Point(17, 308);
+            this.metroCheckBox12.Location = new System.Drawing.Point(17, 332);
             this.metroCheckBox12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroCheckBox12.Name = "metroCheckBox12";
             this.metroCheckBox12.Size = new System.Drawing.Size(102, 20);
@@ -660,7 +663,7 @@
             this.metroTextBox10.FontSize = MetroFramework.MetroTextBoxSize.Medium;
             this.metroTextBox10.Lines = new string[] {
         "47₴"};
-            this.metroTextBox10.Location = new System.Drawing.Point(152, 117);
+            this.metroTextBox10.Location = new System.Drawing.Point(152, 123);
             this.metroTextBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox10.MaxLength = 32767;
             this.metroTextBox10.Name = "metroTextBox10";
@@ -696,7 +699,7 @@
             this.metroTextBox11.FontSize = MetroFramework.MetroTextBoxSize.Medium;
             this.metroTextBox11.Lines = new string[] {
         "69₴"};
-            this.metroTextBox11.Location = new System.Drawing.Point(152, 213);
+            this.metroTextBox11.Location = new System.Drawing.Point(152, 227);
             this.metroTextBox11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox11.MaxLength = 32767;
             this.metroTextBox11.Name = "metroTextBox11";
@@ -732,7 +735,7 @@
             this.metroTextBox12.FontSize = MetroFramework.MetroTextBoxSize.Medium;
             this.metroTextBox12.Lines = new string[] {
         "99₴"};
-            this.metroTextBox12.Location = new System.Drawing.Point(152, 305);
+            this.metroTextBox12.Location = new System.Drawing.Point(152, 329);
             this.metroTextBox12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox12.MaxLength = 32767;
             this.metroTextBox12.Name = "metroTextBox12";
@@ -768,11 +771,12 @@
             this.groupBox3.Controls.Add(this.metroCheckBox11);
             this.groupBox3.Controls.Add(this.metroCheckBox10);
             this.groupBox3.Controls.Add(this.metroCheckBox9);
+            this.groupBox3.Enabled = false;
             this.groupBox3.Location = new System.Drawing.Point(625, 111);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox3.Size = new System.Drawing.Size(264, 416);
+            this.groupBox3.Size = new System.Drawing.Size(264, 448);
             this.groupBox3.TabIndex = 7;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "BabyFood";
@@ -796,7 +800,7 @@
             this.metroTextBox37.Enabled = false;
             this.metroTextBox37.ForeColor = System.Drawing.Color.White;
             this.metroTextBox37.Lines = new string[0];
-            this.metroTextBox37.Location = new System.Drawing.Point(225, 305);
+            this.metroTextBox37.Location = new System.Drawing.Point(225, 329);
             this.metroTextBox37.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox37.MaxLength = 32767;
             this.metroTextBox37.Name = "metroTextBox37";
@@ -835,7 +839,7 @@
             this.metroTextBox36.Enabled = false;
             this.metroTextBox36.ForeColor = System.Drawing.Color.White;
             this.metroTextBox36.Lines = new string[0];
-            this.metroTextBox36.Location = new System.Drawing.Point(225, 214);
+            this.metroTextBox36.Location = new System.Drawing.Point(225, 228);
             this.metroTextBox36.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox36.MaxLength = 32767;
             this.metroTextBox36.Name = "metroTextBox36";
@@ -874,7 +878,7 @@
             this.metroTextBox35.Enabled = false;
             this.metroTextBox35.ForeColor = System.Drawing.Color.White;
             this.metroTextBox35.Lines = new string[0];
-            this.metroTextBox35.Location = new System.Drawing.Point(225, 117);
+            this.metroTextBox35.Location = new System.Drawing.Point(225, 123);
             this.metroTextBox35.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox35.MaxLength = 32767;
             this.metroTextBox35.Name = "metroTextBox35";
@@ -950,7 +954,7 @@
             // 
             this.metroCheckBox6.AutoSize = true;
             this.metroCheckBox6.FontSize = MetroFramework.MetroCheckBoxSize.Medium;
-            this.metroCheckBox6.Location = new System.Drawing.Point(16, 114);
+            this.metroCheckBox6.Location = new System.Drawing.Point(16, 123);
             this.metroCheckBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroCheckBox6.Name = "metroCheckBox6";
             this.metroCheckBox6.Size = new System.Drawing.Size(68, 20);
@@ -963,7 +967,7 @@
             // 
             this.metroCheckBox7.AutoSize = true;
             this.metroCheckBox7.FontSize = MetroFramework.MetroCheckBoxSize.Medium;
-            this.metroCheckBox7.Location = new System.Drawing.Point(13, 218);
+            this.metroCheckBox7.Location = new System.Drawing.Point(16, 233);
             this.metroCheckBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroCheckBox7.Name = "metroCheckBox7";
             this.metroCheckBox7.Size = new System.Drawing.Size(84, 20);
@@ -976,7 +980,7 @@
             // 
             this.metroCheckBox8.AutoSize = true;
             this.metroCheckBox8.FontSize = MetroFramework.MetroCheckBoxSize.Medium;
-            this.metroCheckBox8.Location = new System.Drawing.Point(16, 308);
+            this.metroCheckBox8.Location = new System.Drawing.Point(16, 332);
             this.metroCheckBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroCheckBox8.Name = "metroCheckBox8";
             this.metroCheckBox8.Size = new System.Drawing.Size(56, 20);
@@ -1039,7 +1043,7 @@
             this.metroTextBox6.FontSize = MetroFramework.MetroTextBoxSize.Medium;
             this.metroTextBox6.Lines = new string[] {
         "27₴"};
-            this.metroTextBox6.Location = new System.Drawing.Point(127, 114);
+            this.metroTextBox6.Location = new System.Drawing.Point(127, 123);
             this.metroTextBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox6.MaxLength = 32767;
             this.metroTextBox6.Name = "metroTextBox6";
@@ -1075,7 +1079,7 @@
             this.metroTextBox7.FontSize = MetroFramework.MetroTextBoxSize.Medium;
             this.metroTextBox7.Lines = new string[] {
         "29₴"};
-            this.metroTextBox7.Location = new System.Drawing.Point(124, 215);
+            this.metroTextBox7.Location = new System.Drawing.Point(127, 230);
             this.metroTextBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox7.MaxLength = 32767;
             this.metroTextBox7.Name = "metroTextBox7";
@@ -1111,7 +1115,7 @@
             this.metroTextBox8.FontSize = MetroFramework.MetroTextBoxSize.Medium;
             this.metroTextBox8.Lines = new string[] {
         "22₴"};
-            this.metroTextBox8.Location = new System.Drawing.Point(124, 305);
+            this.metroTextBox8.Location = new System.Drawing.Point(124, 329);
             this.metroTextBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox8.MaxLength = 32767;
             this.metroTextBox8.Name = "metroTextBox8";
@@ -1147,11 +1151,12 @@
             this.groupBox2.Controls.Add(this.metroCheckBox7);
             this.groupBox2.Controls.Add(this.metroCheckBox6);
             this.groupBox2.Controls.Add(this.metroCheckBox5);
+            this.groupBox2.Enabled = false;
             this.groupBox2.Location = new System.Drawing.Point(330, 111);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox2.Size = new System.Drawing.Size(251, 416);
+            this.groupBox2.Size = new System.Drawing.Size(251, 448);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Bio bacterial";
@@ -1175,7 +1180,7 @@
             this.metroTextBox33.Enabled = false;
             this.metroTextBox33.ForeColor = System.Drawing.Color.White;
             this.metroTextBox33.Lines = new string[0];
-            this.metroTextBox33.Location = new System.Drawing.Point(209, 305);
+            this.metroTextBox33.Location = new System.Drawing.Point(209, 329);
             this.metroTextBox33.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox33.MaxLength = 32767;
             this.metroTextBox33.Name = "metroTextBox33";
@@ -1214,7 +1219,7 @@
             this.metroTextBox32.Enabled = false;
             this.metroTextBox32.ForeColor = System.Drawing.Color.White;
             this.metroTextBox32.Lines = new string[0];
-            this.metroTextBox32.Location = new System.Drawing.Point(209, 214);
+            this.metroTextBox32.Location = new System.Drawing.Point(212, 229);
             this.metroTextBox32.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox32.MaxLength = 32767;
             this.metroTextBox32.Name = "metroTextBox32";
@@ -1253,7 +1258,7 @@
             this.metroTextBox31.Enabled = false;
             this.metroTextBox31.ForeColor = System.Drawing.Color.White;
             this.metroTextBox31.Lines = new string[0];
-            this.metroTextBox31.Location = new System.Drawing.Point(212, 114);
+            this.metroTextBox31.Location = new System.Drawing.Point(212, 123);
             this.metroTextBox31.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroTextBox31.MaxLength = 32767;
             this.metroTextBox31.Name = "metroTextBox31";
@@ -1322,6 +1327,7 @@
             this.metroRadioButton1.TabIndex = 8;
             this.metroRadioButton1.Text = "metroRadioButton1";
             this.metroRadioButton1.UseSelectable = true;
+            this.metroRadioButton1.CheckedChanged += new System.EventHandler(this.metroRadioButton1_CheckedChanged);
             // 
             // metroRadioButton2
             // 
@@ -1333,6 +1339,7 @@
             this.metroRadioButton2.TabIndex = 9;
             this.metroRadioButton2.Text = "metroRadioButton2";
             this.metroRadioButton2.UseSelectable = true;
+            this.metroRadioButton2.CheckedChanged += new System.EventHandler(this.metroRadioButton2_CheckedChanged);
             // 
             // metroRadioButton3
             // 
@@ -1344,13 +1351,14 @@
             this.metroRadioButton3.TabIndex = 10;
             this.metroRadioButton3.Text = "metroRadioButton3";
             this.metroRadioButton3.UseSelectable = true;
+            this.metroRadioButton3.CheckedChanged += new System.EventHandler(this.metroRadioButton3_CheckedChanged);
             // 
             // pictureBox8
             // 
             this.pictureBox8.Image = global::WindowsFormsApp1.Properties.Resources.Kefir;
-            this.pictureBox8.Location = new System.Drawing.Point(13, 337);
+            this.pictureBox8.Location = new System.Drawing.Point(13, 365);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(107, 68);
+            this.pictureBox8.Size = new System.Drawing.Size(107, 78);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 27;
             this.pictureBox8.TabStop = false;
@@ -1358,9 +1366,9 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::WindowsFormsApp1.Properties.Resources.Ryajenka;
-            this.pictureBox7.Location = new System.Drawing.Point(13, 243);
+            this.pictureBox7.Location = new System.Drawing.Point(13, 252);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(107, 68);
+            this.pictureBox7.Size = new System.Drawing.Size(107, 72);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 26;
             this.pictureBox7.TabStop = false;
@@ -1368,9 +1376,9 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::WindowsFormsApp1.Properties.Resources.Yogurt;
-            this.pictureBox6.Location = new System.Drawing.Point(13, 139);
+            this.pictureBox6.Location = new System.Drawing.Point(16, 149);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(107, 68);
+            this.pictureBox6.Size = new System.Drawing.Size(107, 73);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 25;
             this.pictureBox6.TabStop = false;
@@ -1378,9 +1386,9 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::WindowsFormsApp1.Properties.Resources.Milk;
-            this.pictureBox5.Location = new System.Drawing.Point(13, 41);
+            this.pictureBox5.Location = new System.Drawing.Point(16, 44);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(107, 68);
+            this.pictureBox5.Size = new System.Drawing.Size(107, 74);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 24;
             this.pictureBox5.TabStop = false;
@@ -1388,9 +1396,9 @@
             // pictureBox12
             // 
             this.pictureBox12.Image = global::WindowsFormsApp1.Properties.Resources.baby_food___pr;
-            this.pictureBox12.Location = new System.Drawing.Point(17, 343);
+            this.pictureBox12.Location = new System.Drawing.Point(17, 365);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(107, 68);
+            this.pictureBox12.Size = new System.Drawing.Size(107, 78);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox12.TabIndex = 31;
             this.pictureBox12.TabStop = false;
@@ -1398,9 +1406,9 @@
             // pictureBox11
             // 
             this.pictureBox11.Image = global::WindowsFormsApp1.Properties.Resources.baby_food___big;
-            this.pictureBox11.Location = new System.Drawing.Point(17, 238);
+            this.pictureBox11.Location = new System.Drawing.Point(17, 252);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(107, 68);
+            this.pictureBox11.Size = new System.Drawing.Size(107, 72);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 30;
             this.pictureBox11.TabStop = false;
@@ -1408,9 +1416,9 @@
             // pictureBox10
             // 
             this.pictureBox10.Image = global::WindowsFormsApp1.Properties.Resources.baby_food___md;
-            this.pictureBox10.Location = new System.Drawing.Point(17, 142);
+            this.pictureBox10.Location = new System.Drawing.Point(17, 149);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(107, 68);
+            this.pictureBox10.Size = new System.Drawing.Size(107, 73);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 29;
             this.pictureBox10.TabStop = false;
@@ -1420,17 +1428,18 @@
             this.pictureBox9.Image = global::WindowsFormsApp1.Properties.Resources.baby_food___sm;
             this.pictureBox9.Location = new System.Drawing.Point(17, 44);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(107, 68);
+            this.pictureBox9.Size = new System.Drawing.Size(107, 74);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 28;
             this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::WindowsFormsApp1.Properties.Resources.Mozarella;
-            this.pictureBox4.Location = new System.Drawing.Point(15, 337);
+            this.pictureBox4.Location = new System.Drawing.Point(15, 365);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(107, 68);
+            this.pictureBox4.Size = new System.Drawing.Size(107, 78);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 23;
             this.pictureBox4.TabStop = false;
@@ -1438,9 +1447,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::WindowsFormsApp1.Properties.Resources.Parmesan;
-            this.pictureBox3.Location = new System.Drawing.Point(15, 239);
+            this.pictureBox3.Location = new System.Drawing.Point(15, 252);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(107, 68);
+            this.pictureBox3.Size = new System.Drawing.Size(107, 76);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 22;
             this.pictureBox3.TabStop = false;
@@ -1448,9 +1457,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::WindowsFormsApp1.Properties.Resources.Bri;
-            this.pictureBox2.Location = new System.Drawing.Point(15, 141);
+            this.pictureBox2.Location = new System.Drawing.Point(15, 149);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(107, 68);
+            this.pictureBox2.Size = new System.Drawing.Size(107, 73);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 21;
             this.pictureBox2.TabStop = false;
@@ -1460,16 +1469,17 @@
             this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.Chader;
             this.pictureBox1.Location = new System.Drawing.Point(15, 44);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(107, 68);
+            this.pictureBox1.Size = new System.Drawing.Size(107, 74);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // MilkProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(1037, 586);
             this.Controls.Add(this.metroTextBox14);
             this.Controls.Add(this.metroTextBox13);
             this.Controls.Add(this.metroRadioButton3);
@@ -1482,6 +1492,7 @@
             this.Name = "MilkProduct";
             this.Padding = new System.Windows.Forms.Padding(27, 74, 27, 25);
             this.Text = "MilkProduct";
+            this.Load += new System.EventHandler(this.MilkProduct_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox3.ResumeLayout(false);

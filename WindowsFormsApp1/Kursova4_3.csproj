@@ -236,5 +236,41 @@
   <ItemGroup>
     <None Include="Resources\baby food - md.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cucumb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eggplants.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mango.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\papaya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\persimmon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\petaya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potatoes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sp_water.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tomatoes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\veg_meet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vegan_cheese.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vegan_mailk.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

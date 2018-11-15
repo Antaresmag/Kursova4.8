@@ -316,6 +316,53 @@ namespace WindowsFormsApp1
         {
             metroTextBox37.Enabled = true;
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroRadioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox1.Enabled = true;
+            groupBox2.Enabled = false;
+            groupBox3.Enabled = false;
+
+        }
+
+        private void metroRadioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox3.Enabled = true;
+            groupBox1.Enabled = false;
+            groupBox2.Enabled = false;
+        }
+
+        private void metroRadioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox2.Enabled = true;
+            groupBox1.Enabled = false;
+            groupBox3.Enabled = false;
+        }
+
+        private void MilkProduct_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroTextBox14_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     }
 
