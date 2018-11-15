@@ -10,8 +10,9 @@
 
 namespace WindowsFormsApp1.Properties {
     using System;
-    
-    
+    using System.Drawing;
+
+
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -23,7 +24,17 @@ namespace WindowsFormsApp1.Properties {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
-        
+        internal static Image Pork_fat;
+        internal static Image Becon;
+        internal static Image Ham;
+        internal static Image Beef;
+        internal static Image Pork;
+        internal static Image Chicken;
+        internal static Image Mutton;
+        internal static Image Schnitzel;
+        internal static Image Damplans;
+        internal static Image Stew;
+        internal static Image Pate;
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
