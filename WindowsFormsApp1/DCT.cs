@@ -13,6 +13,7 @@ namespace WindowsFormsApp1
 {
     public partial class DCT : MetroForm
     {
+        public float TehnologySum = 0;
         public DCT()
         {
             InitializeComponent();

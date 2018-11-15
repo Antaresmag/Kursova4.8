@@ -13,7 +13,7 @@ namespace WindowsFormsApp1
 {
     public partial class Front : MetroForm
     {
-        public float Sum = 0;
+        public float GlobalSum = 0;
         public Front()
         {
             InitializeComponent();
@@ -28,10 +28,11 @@ namespace WindowsFormsApp1
         {
             DP some = new DP();
             some.ShowDialog();
+            metroTextBox14.Text = (float.Parse(metroTextBox14.Text) + (GlobalSum += some.ProductSum)).ToString();
             //Visible = true;
-            
-            
-            
+
+
+
 
         }
 
@@ -62,25 +63,31 @@ namespace WindowsFormsApp1
         {
             DCT some = new DCT();
             some.ShowDialog();
+            metroTextBox14.Text = (float.Parse(metroTextBox14.Text) + (GlobalSum += some.TehnologySum)).ToString();
         }
 
-        private void metroButton3_Click(object sender, EventArgs e)
+        private void metroTextBox3_Click(object sender, EventArgs e)
         {
-            MeetProduct some = new MeetProduct();
-            some.Enabled = true;
-            some.ShowDialog();
+            this.Close();
         }
 
-        private void metroButton4_Click(object sender, EventArgs e)
-        {
-            MilkProduct some = new MilkProduct();
-            some.ShowDialog();
-        }
+        //private void metroButton3_Click(object sender, EventArgs e)
+        //{
+        //    MeetProduct some = new MeetProduct();
+        //    some.Enabled = true;
+        //    some.ShowDialog();
+        //}
 
-        private void metroButton5_Click(object sender, EventArgs e)
-        {
-            VegFruitProduct some = new VegFruitProduct();
-            some.ShowDialog();
-        }
+        //private void metroButton4_Click(object sender, EventArgs e)
+        //{
+        //    MilkProduct some = new MilkProduct();
+        //    some.ShowDialog();
+        //}
+
+        //private void metroButton5_Click(object sender, EventArgs e)
+        //{
+        //    VegFruitProduct some = new VegFruitProduct();
+        //    some.ShowDialog();
+        //}
     }
 }

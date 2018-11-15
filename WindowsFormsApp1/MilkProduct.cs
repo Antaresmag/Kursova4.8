@@ -363,6 +363,11 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void metroButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
     }
 

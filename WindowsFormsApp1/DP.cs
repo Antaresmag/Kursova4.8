@@ -13,7 +13,7 @@ namespace WindowsFormsApp1
 {
     public partial class DP : MetroForm
     {
-        public float Sum = 0;
+        public float ProductSum = 0;
         public DP()
         {
             InitializeComponent();
@@ -41,8 +41,9 @@ namespace WindowsFormsApp1
             MeetProduct some = new MeetProduct();
             some.Enabled = true;
             some.ShowDialog();
-            Sum += some.MeetSum;
-            
+            //Sum += some.MeetSum;
+            metroTextBox14.Text = (float.Parse(metroTextBox14.Text) + (ProductSum += some.MeetSum)).ToString();
+
         }
 
         private void DP_Load(object sender, EventArgs e)
@@ -54,11 +55,20 @@ namespace WindowsFormsApp1
         {
             MilkProduct some = new MilkProduct();
             some.ShowDialog();
+           //Sum += some.MeetSum;
+            metroTextBox14.Text = (float.Parse(metroTextBox14.Text) + (ProductSum += some.MilkSum)).ToString() ;
         }
 
         private void metroButton4_Click(object sender, EventArgs e)
         {
+            VegFruitProduct some = new VegFruitProduct();
+            some.ShowDialog();
+            metroTextBox14.Text = (float.Parse(metroTextBox14.Text) + (ProductSum += some.VegFrutSum)).ToString();
+        }
 
+        private void metroTextBox14_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

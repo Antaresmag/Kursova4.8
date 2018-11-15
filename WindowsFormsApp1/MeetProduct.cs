@@ -414,6 +414,7 @@ namespace WindowsFormsApp1
         private void metroButton1_Click(object sender, EventArgs e)
         {
             this.Close();
+
         }
 
         private void metroTextBox13_Click(object sender, EventArgs e)

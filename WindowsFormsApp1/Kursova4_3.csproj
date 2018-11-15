@@ -272,5 +272,20 @@
   <ItemGroup>
     <None Include="Resources\vegan_mailk.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back fond DP.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back fond DPT.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meat-products.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\milk-product.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\veg-product.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

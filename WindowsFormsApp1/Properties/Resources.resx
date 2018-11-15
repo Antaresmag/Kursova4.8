@@ -118,14 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Pork_fat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pork_fat1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sosiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sosiki1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Parmesan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Parmesan1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Stew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stew1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="baby food - sm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\baby food - sm1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Damplans" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Damplans1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Pate" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pate1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,103 +133,118 @@
   <data name="baby food - pr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\baby food - pr1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Chicken" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Chicken1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Mutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mutton1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ryajenka" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ryajenka1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cash" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cash1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Milk" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Milk1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bri" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bri1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Yogurt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Yogurt1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Becon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Becon1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Beef" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Beef1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Chader" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Chader1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ham" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ham1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Mozarella" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mozarella1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Pork" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pork1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Schnitzel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Schnitzel1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sausage" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sausage1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="baby food - md" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\baby food - md.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sosiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sosiki1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Damplans" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Damplans1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="vegan_mailk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vegan_mailk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="baby food - big" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\baby food - big1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Stew" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Stew1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Kefir" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Kefir1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cucumb" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cucumb.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="eggplants" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\eggplants.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mango" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mango.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="papaya" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\papaya.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="persimmon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\persimmon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="petaya" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\petaya.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Parmesan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Parmesan1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="potatoes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\potatoes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sp_water" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sp_water.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tomatoes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tomatoes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="veg_meet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\veg_meet.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="papaya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\papaya.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="vegan_cheese" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vegan_cheese.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vegan_mailk" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vegan_mailk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Milk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Milk1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back fond DPT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back fond DPT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tomatoes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tomatoes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mozarella" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mozarella1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sp_water" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sp_water.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cucumb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cucumb.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Beef" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Beef1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="veg_meet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\veg_meet.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pork" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pork1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baby food - sm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baby food - sm1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ham" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ham1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chader1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ryajenka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ryajenka1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bri1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mutton1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baby food - md" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baby food - md.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yogurt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yogurt1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sausage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sausage1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Becon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Becon1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pork_fat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pork_fat1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="persimmon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\persimmon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Schnitzel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Schnitzel1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chicken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chicken1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cash1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back fond DP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back fond DP.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kefir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kefir1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mango" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mango.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="petaya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\petaya.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eggplants" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eggplants.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="meat-products" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\meat-products.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="milk-product" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\milk-product.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="veg-product" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\veg-product.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
