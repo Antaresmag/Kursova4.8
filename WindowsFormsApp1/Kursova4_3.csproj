@@ -200,5 +200,41 @@
   <ItemGroup>
     <None Include="Resources\Stew1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baby food - big1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baby food - pr1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baby food - sm1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bri1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chader1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kefir1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Milk1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mozarella1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Parmesan1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ryajenka1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yogurt1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baby food - md.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
