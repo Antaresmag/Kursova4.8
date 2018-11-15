@@ -42,6 +42,8 @@
             this.metroTextBox14 = new MetroFramework.Controls.MetroTextBox();
             this.metroTextBox4 = new MetroFramework.Controls.MetroTextBox();
             this.metroTextBox3 = new MetroFramework.Controls.MetroTextBox();
+            this.metroButton3 = new MetroFramework.Controls.MetroButton();
+            this.metroButton4 = new MetroFramework.Controls.MetroButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -333,11 +335,35 @@
             this.metroTextBox3.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             this.metroTextBox3.Click += new System.EventHandler(this.metroTextBox3_Click);
             // 
+            // metroButton3
+            // 
+            this.metroButton3.FontSize = MetroFramework.MetroButtonSize.Tall;
+            this.metroButton3.Location = new System.Drawing.Point(308, 466);
+            this.metroButton3.Name = "metroButton3";
+            this.metroButton3.Size = new System.Drawing.Size(180, 99);
+            this.metroButton3.TabIndex = 11;
+            this.metroButton3.Text = "BUY";
+            this.metroButton3.UseSelectable = true;
+            this.metroButton3.Click += new System.EventHandler(this.metroButton3_Click);
+            // 
+            // metroButton4
+            // 
+            this.metroButton4.FontSize = MetroFramework.MetroButtonSize.Tall;
+            this.metroButton4.Location = new System.Drawing.Point(42, 543);
+            this.metroButton4.Name = "metroButton4";
+            this.metroButton4.Size = new System.Drawing.Size(132, 73);
+            this.metroButton4.TabIndex = 12;
+            this.metroButton4.Text = "Do not buy";
+            this.metroButton4.UseSelectable = true;
+            this.metroButton4.Click += new System.EventHandler(this.metroButton4_Click);
+            // 
             // Front
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 670);
+            this.Controls.Add(this.metroButton4);
+            this.Controls.Add(this.metroButton3);
             this.Controls.Add(this.metroTextBox3);
             this.Controls.Add(this.metroTextBox14);
             this.Controls.Add(this.metroRadioButton2);
@@ -377,5 +403,7 @@
         private MetroFramework.Controls.MetroTextBox metroTextBox14;
         private MetroFramework.Controls.MetroTextBox metroTextBox4;
         private MetroFramework.Controls.MetroTextBox metroTextBox3;
+        private MetroFramework.Controls.MetroButton metroButton3;
+        private MetroFramework.Controls.MetroButton metroButton4;
     }
 }

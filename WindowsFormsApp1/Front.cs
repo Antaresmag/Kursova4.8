@@ -77,6 +77,18 @@ namespace WindowsFormsApp1
 
         }
 
+        private void metroButton3_Click(object sender, EventArgs e)
+        {
+           metroTextBox14.Text = float.Parse(metroTextBox14.Text).ToString();
+            MessageBox.Show("You sum = "+(metroTextBox14.Text));
+           
+        }
+
+        private void metroButton4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("-_- І на* ти нам голову морочіш, ШТРАФ "+metroTextBox14.Text);
+        }
+
         //private void metroButton3_Click(object sender, EventArgs e)
         //{
         //    MeetProduct some = new MeetProduct();

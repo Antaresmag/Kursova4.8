@@ -35,7 +35,9 @@ namespace WindowsFormsApp1
             user.Password = textBox2.Text;
             this.Close();
             Front some = new Front();
+            //this.Close();
             some.ShowDialog();
+            
 
         }
 
