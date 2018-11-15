@@ -63,9 +63,9 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Becon {
+        internal static System.Drawing.Bitmap _0001695_whole_pork_belly_fresh_portion_15_lbs_560 {
             get {
-                object obj = ResourceManager.GetObject("Becon", resourceCulture);
+                object obj = ResourceManager.GetObject("0001695_whole-pork-belly-fresh-portion-15-lbs_560", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Beef {
+        internal static System.Drawing.Bitmap _1057fda507206a2 {
             get {
-                object obj = ResourceManager.GetObject("Beef", resourceCulture);
+                object obj = ResourceManager.GetObject("1057fda507206a2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Cash {
+        internal static System.Drawing.Bitmap _139 {
             get {
-                object obj = ResourceManager.GetObject("Cash", resourceCulture);
+                object obj = ResourceManager.GetObject("139", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Chicken {
+        internal static System.Drawing.Bitmap _5767413 {
             get {
-                object obj = ResourceManager.GetObject("Chicken", resourceCulture);
+                object obj = ResourceManager.GetObject("5767413", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Damplans {
+        internal static System.Drawing.Bitmap aec7f4b28c_500 {
             get {
-                object obj = ResourceManager.GetObject("Damplans", resourceCulture);
+                object obj = ResourceManager.GetObject("aec7f4b28c_500", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ham {
+        internal static System.Drawing.Bitmap britpateturkey {
             get {
-                object obj = ResourceManager.GetObject("Ham", resourceCulture);
+                object obj = ResourceManager.GetObject("britpateturkey", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Mutton {
+        internal static System.Drawing.Bitmap chicken_meat_3 {
             get {
-                object obj = ResourceManager.GetObject("Mutton", resourceCulture);
+                object obj = ResourceManager.GetObject("chicken-meat-3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Pate {
+        internal static System.Drawing.Bitmap images {
             get {
-                object obj = ResourceManager.GetObject("Pate", resourceCulture);
+                object obj = ResourceManager.GetObject("images", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,39 +143,9 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Pork {
+        internal static System.Drawing.Bitmap images__1_ {
             get {
-                object obj = ResourceManager.GetObject("Pork", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Pork_fat {
-            get {
-                object obj = ResourceManager.GetObject("Pork_fat", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Sausage {
-            get {
-                object obj = ResourceManager.GetObject("Sausage", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Schnitzel {
-            get {
-                object obj = ResourceManager.GetObject("Schnitzel", resourceCulture);
+                object obj = ResourceManager.GetObject("images (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +163,39 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Stew {
+        internal static System.Drawing.Bitmap завантаження {
             get {
-                object obj = ResourceManager.GetObject("Stew", resourceCulture);
+                object obj = ResourceManager.GetObject("завантаження", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap завантаження__1_ {
+            get {
+                object obj = ResourceManager.GetObject("завантаження (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap завантаження__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("завантаження (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap завантаження__2_ {
+            get {
+                object obj = ResourceManager.GetObject("завантаження (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
