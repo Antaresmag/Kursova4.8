@@ -64,11 +64,17 @@ namespace WindowsFormsApp1
             DCT some = new DCT();
             some.ShowDialog();
             metroTextBox14.Text = (float.Parse(metroTextBox14.Text) + (GlobalSum += some.TehnologySum)).ToString();
+           
         }
 
         private void metroTextBox3_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void metroTextBox4_Click(object sender, EventArgs e)
+        {
+
         }
 
         //private void metroButton3_Click(object sender, EventArgs e)

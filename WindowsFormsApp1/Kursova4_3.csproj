@@ -287,5 +287,35 @@
   <ItemGroup>
     <None Include="Resources\veg-product.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\huawei.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ipad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iPhone-SE-X.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mac.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mpro10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redmi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\y520.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\y720.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\y920.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teh.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
